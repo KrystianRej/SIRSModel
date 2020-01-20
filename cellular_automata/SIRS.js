@@ -1,5 +1,3 @@
-
-
 var w = 1100;
 var h = 790;
 
@@ -74,14 +72,8 @@ init();
 
 
 async function update(){
-
-
-    //for(var i = 0; i < 40; i++) {
-    //    await this.sleep(300);
         nextStep();
         prepareStep();
-   // }
-
 }
 
 function sleep(ms) {
